@@ -1,0 +1,7 @@
+### Mac OS ###
+.DS_Store
+
+### env ###
+application.yml
+.env
+.env.*
