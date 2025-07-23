@@ -1,13 +1,13 @@
 internal:
   auth:
-    base-url: ${DOMAIN_URL}:${AUTH_PORT}
+    base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_AUTH_PORT}
     register-business-user-credential: /auth/register
   file:
-    base-url: ${DOMAIN_URL}:${FILE_PORT}
+    base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_FILE_PORT}
     upload-file-url: /files
     get-file-info-url: /files/%s/info
   user:
-    base-url: ${DOMAIN_URL}:${USER_PORT}
+    base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_USER_PORT}
     get-user-info-url: /users/%s/info
   universe:
-    base-url: ${DOMAIN_URL}:${UNIVERSE_PORT}
+    base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_UNIVERSE_PORT}
