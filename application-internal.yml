@@ -1,4 +1,6 @@
 internal:
+  gateway:
+    base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_GATEWAY_PORT}
   auth:
     base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_AUTH_PORT}
     register-business-user-credential: /auth/register
