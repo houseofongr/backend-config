@@ -1,7 +1,7 @@
 internal:
   auth:
     base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_AUTH_PORT}
-    register-business-user-credential: /auth/register
+    register-business-user-credential: /auth/register/business-user
   file:
     base-url: ${INTERNAL_DOMAIN_URL}:${INTERNAL_FILE_PORT}
     upload-file-url: /files
