@@ -1,0 +1,8 @@
+s3:
+  access-key: ${S3_ACCESS_KEY}
+  secret-key: ${S3_ACCESS_KEY}
+  endpoint: ${S3_ENDPOINT}
+  region: ${S3_REGION}
+  part-size: ${S3_PART_SIZE}
+  public-url-expire-min: ${S3_PUBLIC_URL_EXPIRE_MIN}
+  private-url-expire-min: ${S3_PRIVATE_URL_EXPIRE_MIN}
